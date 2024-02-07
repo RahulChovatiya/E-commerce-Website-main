@@ -2583,6 +2583,13 @@
       "password": "Zenitsu@123123",
       "addresses": [],
       "role": "user"
+    },
+    {
+      "id": "215b",
+      "email": "rahulchovatiya5@gmail.com",
+      "password": "Rahul@1111",
+      "addresses": [],
+      "role": "user"
     }
   ],
   "cart": [
