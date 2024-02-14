@@ -19,19 +19,20 @@ export default function Login() {
   return (
     <>
       {user && <Navigate to="/" replace={true}></Navigate>}
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+      <div className="flex h-screen flex-1 flex-col justify-center px-6 py-20 lg:px-8 ">
+       <div className=' bg-indigo-600 h-auto mx-96 rounded-[40px] bg-opacity-10'>
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm -mt-32">
           <img
-            className="mx-auto h-10 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            className="mx-auto h-100 w-100"
+            src="https://ik.imagekit.io/pctqmbkbp/Logo/black_white_Shop_logo__1_-removebg-preview.png?updatedAt=1707916088892"
             alt="Your Company"
           />
-          <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
-            Log in to your account
+          <h2 className="-mt-32 text-center text-3xl font-bold leading-9 tracking-tight text-gray-900">
+            Hello Again!
           </h2>
         </div>
 
-        <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-7 mb-7 sm:mx-auto sm:w-full sm:max-w-sm">
           <form
             noValidate
             onSubmit={handleSubmit((data) => {
@@ -100,17 +101,17 @@ export default function Login() {
               {error && <p className="text-red-500">{error.message}</p>}
             </div>
 
-            <div>
+            <div className='flex justify-center items-center w-auto'>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-2/3 justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Log in
               </button>
             </div>
           </form>
 
-          <p className="mt-10 text-center text-sm text-gray-500">
+          <p className="mt-7 text-center text-sm text-gray-500">
             Not a member?{' '}
             <Link
               to="/signup"
@@ -119,6 +120,7 @@ export default function Login() {
               Create an Account
             </Link>
           </p>
+        </div>
         </div>
       </div>
     </>
