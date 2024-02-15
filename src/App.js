@@ -3,7 +3,6 @@ import './App.css';
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
-
 import { createBrowserRouter, Link, RouterProvider } from 'react-router-dom';
 import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
@@ -154,3 +153,6 @@ function App() {
 }
 
 export default App;
+
+
+
