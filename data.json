@@ -2652,6 +2652,47 @@
       ],
       "quantity": 1,
       "user": "91b4"
+    },
+    {
+      "id": "1f6e",
+      "title": "iPhone 15",
+      "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.6,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+      ],
+      "deleted": false,
+      "quantity": 1,
+      "user": "2b04"
+    },
+    {
+      "id": "6fa1",
+      "title": "Samsung Galaxy s24 Ultra",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.9,
+      "stock": 56,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product3/Samsung-Galaxy-S24-Ultra-Price-in-India.jpg?updatedAt=1707309178503",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product3/NextPit-samsung-galaxy-s23-ultra-hands-on-cmd7-w1400h1400.jpg?updatedAt=1707309195332",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product3/Samsung-Galaxy-S24-Ultra-8K-Feature.webp?updatedAt=1707309178665",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product3/s24-colors-heading.png?updatedAt=1707309179482",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product3/Samsung-Galaxy-S24-Ultra-Price-in-India.jpg?updatedAt=1707309178503"
+      ],
+      "quantity": 1,
+      "user": "2b04"
     }
   ],
   "orders": [
