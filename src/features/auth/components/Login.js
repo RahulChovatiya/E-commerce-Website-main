@@ -32,7 +32,7 @@ export default function Login() {
           </h2>
         </div>
 
-        <div className="mt-7 mb-7 sm:mx-auto sm:w-full sm:max-w-sm">
+        <div className="mt-14 mb-7 sm:mx-auto sm:w-full sm:max-w-sm">
           <form
             noValidate
             onSubmit={handleSubmit((data) => {
@@ -40,7 +40,7 @@ export default function Login() {
                 checkUserAsync({ email: data.email, password: data.password })
               );
             })}
-            className="space-y-6"
+            className="space-y-5"
           >
             <div>
               <label

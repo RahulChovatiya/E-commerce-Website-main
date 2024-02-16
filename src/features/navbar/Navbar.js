@@ -12,8 +12,8 @@ import { selectLoggedInUser } from '../auth/authSlice';
 
 
 const navigation = [
-  { name: 'Dashboard', link: '#', user: true },
-  { name: 'Team', link: '#', user: true },
+  // { name: 'Dashboard', link: '#', user: true },
+  // { name: 'Team', link: '#', user: true },
   { name: 'Admin', link: '/admin', admin: true },
   { name: 'Orders', link: '/admin/orders', admin: true },
 
@@ -44,8 +44,8 @@ function NavBar({ children }) {
                     <div className="flex-shrink-0">
                       <Link to="/">
                         <img
-                          className="h-8 w-8"
-                          src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                          className="h-1/2 w-1/2 "
+                          src="https://ik.imagekit.io/pctqmbkbp/Logo/logo1.png?updatedAt=1707977069425"
                           alt="Your Company"
                         />
                       </Link>
@@ -77,7 +77,7 @@ function NavBar({ children }) {
                       <Link to="/cart">
                         <button
                           type="button"
-                          className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                          className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 mr-6"
                         >
                           <span className="sr-only">View notifications</span>
                           <ShoppingCartIcon
@@ -99,7 +99,7 @@ function NavBar({ children }) {
                             <span className="sr-only">Open user menu</span>
                             <img
                               className="h-8 w-8 rounded-full"
-                              src={user.imageUrl}
+                              src={"https://ik.imagekit.io/pctqmbkbp/Logo/profile-user.png?updatedAt=1707985520165"}
                               alt=""
                             />
                           </Menu.Button>
@@ -225,13 +225,11 @@ function NavBar({ children }) {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
-          <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-              E-Commerce
-            </h1>
+        {/* <header className="bg-red shadow h-20">
+          <div className="mx-auto max-w-7xl px-3 py-20 sm:px-6 lg:px-8">
+            <img className='hell h-48 w-48 -mt-4' src="https://ik.imagekit.io/pctqmbkbp/Logo/black_white_Shop_logo__1_-removebg-preview.png?updatedAt=1707916089503" />
           </div>
-        </header>
+        </header> */}
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             {children}
