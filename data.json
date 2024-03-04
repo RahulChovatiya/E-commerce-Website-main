@@ -2626,13 +2626,27 @@
       "role": "user"
     },
     {
-      "id": "ec4b",
-      "email": "shahrushabh3954@gmail.com",
-      "password": "@Shah2002",
       "id": "2b04",
       "email": "meetsathavara@gmail.com",
       "password": "Meet@123",
       "addresses": [],
+      "role": "user"
+    },
+    {
+      "id": "89d5",
+      "email": "meetsathwara@gmail.com",
+      "password": "Meet@123",
+      "addresses": [
+        {
+          "name": "vardhini",
+          "email": "vardhini@gmail.com",
+          "phone": "1542875468",
+          "street": "urjanagar-1",
+          "city": "gandhinagar",
+          "state": "gujarat",
+          "pinCode": "383026"
+        }
+      ],
       "role": "user"
     }
   ],
@@ -2696,6 +2710,27 @@
       ],
       "quantity": 1,
       "user": "2b04"
+    },
+    {
+      "id": "1b26",
+      "title": "iPhone 15 Pro Max",
+      "description": "An Apple iPhone 15 Pro Max mobile which is nothing like other Apple Mobile...",
+      "price": 1099,
+      "discountPercentage": 12.96,
+      "rating": 4.8,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/images.jpg?updatedAt=1707294396698",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg?updatedAt=1707294133051",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-finish-select-202309-6-1inch_GEO_EMEA.jpg?updatedAt=1707294396977",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637"
+      ],
+      "deleted": false,
+      "quantity": 1,
+      "user": "ecf1"
     }
   ],
   "orders": [
@@ -3986,6 +4021,62 @@
         "city": "gandhinagar",
         "state": "gujarat",
         "pinCode": "382826"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "083c",
+      "items": [
+        {
+          "id": "1815",
+          "title": "iPhone 15",
+          "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.6,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+          "images": [
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+          ],
+          "deleted": false,
+          "quantity": 1,
+          "user": "89d5"
+        }
+      ],
+      "totalAmount": 738,
+      "totalItems": 1,
+      "user": {
+        "id": "89d5",
+        "email": "meetsathwara@gmail.com",
+        "password": "Meet@123",
+        "addresses": [
+          {
+            "name": "vardhini",
+            "email": "vardhini@gmail.com",
+            "phone": "1542875468",
+            "street": "urjanagar-1",
+            "city": "gandhinagar",
+            "state": "gujarat",
+            "pinCode": "383026"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "vardhini",
+        "email": "vardhini@gmail.com",
+        "phone": "1542875468",
+        "street": "urjanagar-1",
+        "city": "gandhinagar",
+        "state": "gujarat",
+        "pinCode": "383026"
       },
       "status": "pending"
     }
