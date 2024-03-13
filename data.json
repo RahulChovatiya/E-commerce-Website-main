@@ -2653,27 +2653,6 @@
       "deleted": false,
       "quantity": 1,
       "user": "ecf1"
-    },
-    {
-      "id": "4320",
-      "title": "iPhone 15",
-      "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.6,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
-      "images": [
-        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
-        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
-        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
-        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
-      ],
-      "deleted": false,
-      "quantity": 1,
-      "user": "2b04"
     }
   ],
   "orders": [
