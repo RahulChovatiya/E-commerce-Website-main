@@ -1439,9 +1439,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://cdn.dummyjson.com/product-images/78/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/78/thumbnail.jpg"
-      ]
+      "images": ["https://cdn.dummyjson.com/product-images/78/thumbnail.jpg"]
     },
     {
       "id": 79,
@@ -1454,9 +1452,7 @@
       "brand": "Fashion Jewellery",
       "category": "womens-jewellery",
       "thumbnail": "https://cdn.dummyjson.com/product-images/79/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/79/1.jpg"
-      ]
+      "images": ["https://cdn.dummyjson.com/product-images/79/1.jpg"]
     },
     {
       "id": 80,
@@ -2622,6 +2618,27 @@
       ],
       "quantity": 1,
       "user": "91b4"
+    },
+    {
+      "id": "1b26",
+      "title": "iPhone 15 Pro Max",
+      "description": "An Apple iPhone 15 Pro Max mobile which is nothing like other Apple Mobile...",
+      "price": 1099,
+      "discountPercentage": 12.96,
+      "rating": 4.8,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/images.jpg?updatedAt=1707294396698",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg?updatedAt=1707294133051",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-finish-select-202309-6-1inch_GEO_EMEA.jpg?updatedAt=1707294396977",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637"
+      ],
+      "deleted": false,
+      "quantity": 1,
+      "user": "ecf1"
     }
   ],
   "orders": [
@@ -2764,9 +2781,7 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
+          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
           "quantity": 2,
           "user": 2
         },
@@ -3024,9 +3039,7 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
+          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
           "quantity": 1,
           "user": 2,
           "id": 1
@@ -3095,9 +3108,7 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
+          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
           "quantity": 1,
           "user": 2,
           "id": 1
@@ -3654,9 +3665,7 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": [
-            "https://i.dummyjson.com/data/products/3/1.jpg"
-          ],
+          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
           "quantity": 4,
           "user": "f557"
         }
@@ -3968,6 +3977,62 @@
         "city": "gandhinagar",
         "state": "gujarat",
         "pinCode": "383026"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "aada",
+      "items": [
+        {
+          "id": "4087",
+          "title": "iPhone 15",
+          "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.6,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+          "images": [
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+          ],
+          "deleted": false,
+          "quantity": 1,
+          "user": "2b04"
+        }
+      ],
+      "totalAmount": 738,
+      "totalItems": 1,
+      "user": {
+        "id": "2b04",
+        "email": "meetsathavara@gmail.com",
+        "password": "Meet@123",
+        "addresses": [
+          {
+            "name": "Meet Sathawara",
+            "email": "meetsathavara@gmail.com",
+            "phone": "7575939301",
+            "street": "111-Radhamandir sociaty, Mansarovar, yogi chowk, surat",
+            "city": "Surat",
+            "state": "Gujrat",
+            "pinCode": "305006"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Meet Sathawara",
+        "email": "meetsathavara@gmail.com",
+        "phone": "7575939301",
+        "street": "111-Radhamandir sociaty, Mansarovar, yogi chowk, surat",
+        "city": "Surat",
+        "state": "Gujrat",
+        "pinCode": "305006"
       },
       "status": "pending"
     }
