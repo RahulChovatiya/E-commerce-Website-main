@@ -93,117 +93,117 @@
       ]
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "MacBook Pro",
-      "description": "MacBook Pro 2023 with mini-LED display may launch between September-November",
-      "price": 1999,
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
       "discountPercentage": 11.02,
-      "rating": 4.7,
+      "rating": 4.57,
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
       "images": [
-        "https://i.dummyjson.com/data/products/6/1.png",
-        "https://i.dummyjson.com/data/products/6/2.jpg",
-        "https://i.dummyjson.com/data/products/6/3.png",
-        "https://i.dummyjson.com/data/products/6/thumbnail.png"
+        "https://cdn.dummyjson.com/product-images/6/1.png",
+        "https://cdn.dummyjson.com/product-images/6/2.jpg",
+        "https://cdn.dummyjson.com/product-images/6/3.png",
+        "https://cdn.dummyjson.com/product-images/6/4.jpg"
       ]
     },
     {
-      "id": "7",
+      "id": 7,
       "title": "Samsung Galaxy Book",
-      "description": "Samsung Galaxy Book S (2023) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
       "price": 1499,
       "discountPercentage": 4.15,
-      "rating": 4.5,
+      "rating": 4.25,
       "stock": 50,
       "brand": "Samsung",
       "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/7/1.jpg",
-        "https://i.dummyjson.com/data/products/7/2.jpg",
-        "https://i.dummyjson.com/data/products/7/3.jpg",
-        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/7/1.jpg",
+        "https://cdn.dummyjson.com/product-images/7/2.jpg",
+        "https://cdn.dummyjson.com/product-images/7/3.jpg",
+        "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
       ]
     },
     {
-      "id": "8",
+      "id": 8,
       "title": "Microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
       "price": 1499,
       "discountPercentage": 10.23,
-      "rating": 4.4,
+      "rating": 4.43,
       "stock": 68,
       "brand": "Microsoft Surface",
       "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/8/1.jpg",
-        "https://i.dummyjson.com/data/products/8/2.jpg",
-        "https://i.dummyjson.com/data/products/8/3.jpg",
-        "https://i.dummyjson.com/data/products/8/4.jpg",
-        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/8/1.jpg",
+        "https://cdn.dummyjson.com/product-images/8/2.jpg",
+        "https://cdn.dummyjson.com/product-images/8/3.jpg",
+        "https://cdn.dummyjson.com/product-images/8/4.jpg",
+        "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
       ]
     },
     {
-      "id": "9",
+      "id": 9,
       "title": "Infinix INBOOK",
-      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey with 1 Year Warranty",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
       "discountPercentage": 11.83,
-      "rating": 4.2,
+      "rating": 4.54,
       "stock": 96,
       "brand": "Infinix",
       "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/9/1.jpg",
-        "https://i.dummyjson.com/data/products/9/2.png",
-        "https://i.dummyjson.com/data/products/9/3.png",
-        "https://i.dummyjson.com/data/products/9/4.jpg",
-        "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/9/1.jpg",
+        "https://cdn.dummyjson.com/product-images/9/2.png",
+        "https://cdn.dummyjson.com/product-images/9/3.png",
+        "https://cdn.dummyjson.com/product-images/9/4.jpg",
+        "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
       ]
     },
     {
-      "id": "10",
+      "id": 10,
       "title": "HP Pavilion 15-DK1056WM",
       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
       "price": 1099,
       "discountPercentage": 6.18,
-      "rating": 4.3,
-      "stock": 0,
+      "rating": 4.43,
+      "stock": 89,
       "brand": "HP Pavilion",
       "category": "laptops",
-      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
       "images": [
-        "https://i.dummyjson.com/data/products/10/1.jpg",
-        "https://i.dummyjson.com/data/products/10/2.jpg",
-        "https://i.dummyjson.com/data/products/10/3.jpg",
-        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+        "https://cdn.dummyjson.com/product-images/10/1.jpg",
+        "https://cdn.dummyjson.com/product-images/10/2.jpg",
+        "https://cdn.dummyjson.com/product-images/10/3.jpg",
+        "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
       ]
     },
     {
-      "id": "11",
-      "title": "Perfume Oil",
-      "description": "Impression of Acqua Di Gio by GiorgioArmani concentrated attar Perfume Oil",
+      "id": 11,
+      "title": "perfume Oil",
+      "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
       "price": 13,
       "discountPercentage": 8.4,
       "rating": 4.26,
       "stock": 65,
       "brand": "Impression of Acqua Di Gio",
       "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/11/1.jpg",
-        "https://i.dummyjson.com/data/products/11/2.jpg",
-        "https://i.dummyjson.com/data/products/11/3.jpg",
-        "https://i.dummyjson.com/data/products/11/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/11/1.jpg",
+        "https://cdn.dummyjson.com/product-images/11/2.jpg",
+        "https://cdn.dummyjson.com/product-images/11/3.jpg",
+        "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
       ]
     },
     {
-      "id": "12",
+      "id": 12,
       "title": "Brown Perfume",
       "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
       "price": 40,
@@ -212,13 +212,13 @@
       "stock": 52,
       "brand": "Royal_Mirage",
       "category": "fragrances",
-      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
       "images": [
-        "https://i.dummyjson.com/data/products/12/1.jpg",
-        "https://i.dummyjson.com/data/products/12/2.jpg",
-        "https://i.dummyjson.com/data/products/12/3.png",
-        "https://i.dummyjson.com/data/products/12/4.jpg",
-        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+        "https://cdn.dummyjson.com/product-images/12/1.jpg",
+        "https://cdn.dummyjson.com/product-images/12/2.jpg",
+        "https://cdn.dummyjson.com/product-images/12/3.png",
+        "https://cdn.dummyjson.com/product-images/12/4.jpg",
+        "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
       ]
     },
     {
@@ -2619,6 +2619,23 @@
       "password": "Meet@123",
       "addresses": [],
       "role": "user"
+    },
+    {
+      "id": "89d5",
+      "email": "meetsathwara@gmail.com",
+      "password": "Meet@123",
+      "addresses": [
+        {
+          "name": "vardhini",
+          "email": "vardhini@gmail.com",
+          "phone": "1542875468",
+          "street": "urjanagar-1",
+          "city": "gandhinagar",
+          "state": "gujarat",
+          "pinCode": "383026"
+        }
+      ],
+      "role": "user"
     }
   ],
   "cart": [
@@ -2640,6 +2657,27 @@
       ],
       "quantity": 1,
       "user": "91b4"
+    },
+    {
+      "id": "1b26",
+      "title": "iPhone 15 Pro Max",
+      "description": "An Apple iPhone 15 Pro Max mobile which is nothing like other Apple Mobile...",
+      "price": 1099,
+      "discountPercentage": 12.96,
+      "rating": 4.8,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/images.jpg?updatedAt=1707294396698",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg?updatedAt=1707294133051",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-finish-select-202309-6-1inch_GEO_EMEA.jpg?updatedAt=1707294396977",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product1/iphone-15-pro-max-naturaltitanium-select.png?updatedAt=1707294071637"
+      ],
+      "deleted": false,
+      "quantity": 1,
+      "user": "ecf1"
     }
   ],
   "orders": [
@@ -2782,7 +2820,9 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
           "quantity": 2,
           "user": 2
         },
@@ -3040,7 +3080,9 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
           "quantity": 1,
           "user": 2,
           "id": 1
@@ -3109,7 +3151,9 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
           "quantity": 1,
           "user": 2,
           "id": 1
@@ -3666,7 +3710,9 @@
           "brand": "Samsung",
           "category": "smartphones",
           "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-          "images": ["https://i.dummyjson.com/data/products/3/1.jpg"],
+          "images": [
+            "https://i.dummyjson.com/data/products/3/1.jpg"
+          ],
           "quantity": 4,
           "user": "f557"
         }
@@ -3922,6 +3968,62 @@
         "city": "gandhinagar",
         "state": "gujarat",
         "pinCode": "382826"
+      },
+      "status": "pending"
+    },
+    {
+      "id": "083c",
+      "items": [
+        {
+          "id": "1815",
+          "title": "iPhone 15",
+          "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.6,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+          "images": [
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+          ],
+          "deleted": false,
+          "quantity": 1,
+          "user": "89d5"
+        }
+      ],
+      "totalAmount": 738,
+      "totalItems": 1,
+      "user": {
+        "id": "89d5",
+        "email": "meetsathwara@gmail.com",
+        "password": "Meet@123",
+        "addresses": [
+          {
+            "name": "vardhini",
+            "email": "vardhini@gmail.com",
+            "phone": "1542875468",
+            "street": "urjanagar-1",
+            "city": "gandhinagar",
+            "state": "gujarat",
+            "pinCode": "383026"
+          }
+        ],
+        "role": "user"
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "vardhini",
+        "email": "vardhini@gmail.com",
+        "phone": "1542875468",
+        "street": "urjanagar-1",
+        "city": "gandhinagar",
+        "state": "gujarat",
+        "pinCode": "383026"
       },
       "status": "pending"
     }
