@@ -88,11 +88,11 @@ function Checkout() {
         ></Navigate>
       )}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5 ">
           <div className="lg:col-span-3">
             {/* This form is for address */}
             <form
-              className="bg-white px-5 py-12 mt-12"
+              className="bg-white px-5 py-12 mt-12 rounded-xl"
               noValidate
               onSubmit={handleSubmit((data) => {
                 console.log(data);
@@ -295,53 +295,55 @@ function Checkout() {
               </div>
             </form>
             <div className="border-b border-gray-900/10 pb-12">
-              <h2 className="text-base font-semibold leading-7 text-gray-900">
-                Addresses
-              </h2>
-              <p className="mt-1 text-sm leading-6 text-gray-600">
-                Choose from Existing addresses
-              </p>
-              <ul>
-                {user.addresses.map((address, index) => (
-                  <li
-                    key={index}
-                    className="flex justify-between gap-x-6 px-5 py-5 border-solid border-2 border-gray-200"
-                  >
-                    <div className="flex gap-x-4">
-                      <input
-                        onChange={handleAddress}
-                        name="address"
-                        type="radio"
-                        value={index}
-                        className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                      />
-                      <div className="min-w-0 flex-auto">
-                        <p className="text-sm font-semibold leading-6 text-gray-900">
-                          {address.name}
+              <div className='bg-white p-4 pb-5 mt-10 rounded-xl'>
+                <h2 className="text-2xl font-semibold leading-7 text-gray-900">
+                  Address
+                </h2>
+                <p className="mt-1 text-sm leading-6 text-gray-600">
+                  Choose from Existing addresses
+                </p>
+                <ul>
+                  {user.addresses.map((address, index) => (
+                    <li
+                      key={index}
+                      className="flex justify-between mt-5 gap-x-6 px-5 py-5 border-solid border-2 border-gray-200 rounded-md"
+                    >
+                      <div className="flex gap-x-4">
+                        <input
+                          onChange={handleAddress}
+                          name="address"
+                          type="radio"
+                          value={index}
+                          className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                        />
+                        <div className="min-w-0 flex-auto ">
+                          <p className="text-sm font-semibold leading-6 text-gray-900">
+                            {address.name}
+                          </p>
+                          <p className="mt-1 truncate text-xs leading-5 text-gray-500">
+                            {address.street}
+                          </p>
+                          <p className="mt-1 truncate text-xs leading-5 text-gray-500">
+                            {address.pinCode}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="hidden sm:flex sm:flex-col sm:items-end">
+                        <p className="text-sm leading-6 text-gray-900">
+                          Phone: {address.phone}
                         </p>
-                        <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                          {address.street}
-                        </p>
-                        <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                          {address.pinCode}
+                        <p className="text-sm leading-6 text-gray-500">
+                          {address.city}
                         </p>
                       </div>
-                    </div>
-                    <div className="hidden sm:flex sm:flex-col sm:items-end">
-                      <p className="text-sm leading-6 text-gray-900">
-                        Phone: {address.phone}
-                      </p>
-                      <p className="text-sm leading-6 text-gray-500">
-                        {address.city}
-                      </p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
-              <div className="mt-10 space-y-10">
+              {/* <div className="mt-10 space-y-10 bg-white p-4">
                 <fieldset>
-                  <legend className="text-sm font-semibold leading-6 text-gray-900">
+                  <legend className="text-2xl font-semibold leading-6 text-gray-900">
                     Payment Methods
                   </legend>
                   <p className="mt-1 text-sm leading-6 text-gray-600">
@@ -384,12 +386,12 @@ function Checkout() {
                     </div>
                   </div>
                 </fieldset>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="lg:col-span-2">
-            <div className="mx-auto mt-12 bg-white max-w-7xl px-2 sm:px-2 lg:px-4">
-              <div className="border-t border-gray-200 px-0 py-6 sm:px-0">
+            <div className="mx-auto mt-12 bg-white max-w-7xl px-2 sm:px-2 lg:px-4 rounded-xl">
+              <div className="border-t border-gray-200 p-5 sm:px-0 ">
                 <h1 className="text-4xl my-5 font-bold tracking-tight text-gray-900">
                   Cart
                 </h1>
@@ -475,22 +477,69 @@ function Checkout() {
                   </div>
                 </div>
                 <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
-                  <p>
-                    or
-                    <Link to="/">
-                      <button
-                        type="button"
-                        className="font-medium text-indigo-600 hover:text-indigo-500"
-                      >
-                        Continue Shopping
-                        <span aria-hidden="true"> &rarr;</span>
-                      </button>
-                    </Link>
-                  </p>
+
+
+                  <Link to="/">
+                    <button
+                      type="button"
+                      className="font-medium text-indigo-600 hover:text-indigo-500"
+                    >
+                      Continue Shopping
+                      <span aria-hidden="true"> &rarr;</span>
+                    </button>
+                  </Link>
+
                 </div>
               </div>
             </div>
+            <div className="mt-10 space-y-10 bg-white p-4 rounded-xl">
+              <fieldset>
+                <legend className="text-2xl font-semibold leading-6 text-gray-900">
+                  Payment Methods
+                </legend>
+                <p className="mt-1 text-sm leading-6 text-gray-600">
+                  Choose One
+                </p>
+                <div className="mt-6 space-y-6">
+                  <div className="flex items-center gap-x-3">
+                    <input
+                      id="cash"
+                      name="payments"
+                      onChange={handlePayment}
+                      value="cash"
+                      type="radio"
+                      checked={paymentMethod === 'cash'}
+                      className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                    />
+                    <label
+                      htmlFor="cash"
+                      className="block text-sm font-medium leading-6 text-gray-900"
+                    >
+                      Cash
+                    </label>
+                  </div>
+                  <div className="flex items-center gap-x-3">
+                    <input
+                      id="card"
+                      onChange={handlePayment}
+                      name="payments"
+                      checked={paymentMethod === 'card'}
+                      value="card"
+                      type="radio"
+                      className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                    />
+                    <label
+                      htmlFor="card"
+                      className="block text-sm font-medium leading-6 text-gray-900"
+                    >
+                      Card Payment
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
           </div>
+
         </div>
       </div>
     </>
