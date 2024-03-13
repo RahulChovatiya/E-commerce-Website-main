@@ -2582,7 +2582,17 @@
       "id": "2b04",
       "email": "meetsathavara@gmail.com",
       "password": "Meet@123",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "Meet Sathawara",
+          "email": "meetsathavara@gmail.com",
+          "phone": "7575939301",
+          "street": "111-Radhamandir sociaty, Mansarovar, yogi chowk, surat",
+          "city": "Surat",
+          "state": "Gujrat",
+          "pinCode": "305006"
+        }
+      ],
       "role": "user"
     },
     {
@@ -2642,6 +2652,27 @@
       ],
       "quantity": 1,
       "user": "ecf1"
+    },
+    {
+      "id": "4320",
+      "title": "iPhone 15",
+      "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.6,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+      "images": [
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+        "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+      ],
+      "deleted": false,
+      "quantity": 1,
+      "user": "2b04"
     }
   ],
   "orders": [
@@ -3992,6 +4023,7 @@
       "status": "pending"
     },
     {
+<<<<<<< HEAD
       "id": "1506",
       "items": [
         {
@@ -4031,12 +4063,54 @@
             "city": "gandhinagar",
             "state": "gujarat",
             "pinCode": "382826"
+=======
+      "id": "aada",
+      "items": [
+        {
+          "id": "4087",
+          "title": "iPhone 15",
+          "description": " Dual SIM, Model A19211 6.1-inch Super Retina HD display with OLED technology with A14 Bionic chip ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.6,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755",
+          "images": [
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/apple-iphone-14-iphone-14-plus-hero-220907-geo-full-bleed-imagejpglarge-jpg-11-315614-1x1_0.webp?updatedAt=1707294688192",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/hero_endframe__e0ajd2ayxqc2_large.jpg?updatedAt=1707294666545",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/f5blbclxwaaz9vf-sixteen_nine.avif?updatedAt=1707294666622",
+            "https://ik.imagekit.io/pctqmbkbp/product%201-10/product2/shopping.jpg?updatedAt=1707908324755"
+          ],
+          "deleted": false,
+          "quantity": 1,
+          "user": "2b04"
+        }
+      ],
+      "totalAmount": 738,
+      "totalItems": 1,
+      "user": {
+        "id": "2b04",
+        "email": "meetsathavara@gmail.com",
+        "password": "Meet@123",
+        "addresses": [
+          {
+            "name": "Meet Sathawara",
+            "email": "meetsathavara@gmail.com",
+            "phone": "7575939301",
+            "street": "111-Radhamandir sociaty, Mansarovar, yogi chowk, surat",
+            "city": "Surat",
+            "state": "Gujrat",
+            "pinCode": "305006"
+>>>>>>> 8c4b89ac57fe616aa955c31096012ab6806e712e
           }
         ],
         "role": "user"
       },
       "paymentMethod": "cash",
       "selectedAddress": {
+<<<<<<< HEAD
         "name": "Rishabh ",
         "email": "shahrushabh3954@gmail.com",
         "phone": "09725291908",
@@ -4044,6 +4118,15 @@
         "city": "gandhinagar",
         "state": "gujarat",
         "pinCode": "382826"
+=======
+        "name": "Meet Sathawara",
+        "email": "meetsathavara@gmail.com",
+        "phone": "7575939301",
+        "street": "111-Radhamandir sociaty, Mansarovar, yogi chowk, surat",
+        "city": "Surat",
+        "state": "Gujrat",
+        "pinCode": "305006"
+>>>>>>> 8c4b89ac57fe616aa955c31096012ab6806e712e
       },
       "status": "pending"
     }
